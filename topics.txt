@@ -1,0 +1,17 @@
+Type check topics
+	What is type checking in programming?
+	Static type checking
+	is and !is operator
+	Null safety
+	Maybe programming examples?
+
+Casts topics
+	What is casting in programming?
+	Smart casts
+	Unsafe cast operator
+	Safe (Nullable) cast operator
+	Maybe programming examples?
+	
+
+
+
