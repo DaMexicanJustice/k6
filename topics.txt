@@ -11,6 +11,8 @@ Casts topics
 	Unsafe cast operator
 	Safe (Nullable) cast operator
 	Maybe programming examples?
+	When construct.
+	If/else construct.
 	
 
 
