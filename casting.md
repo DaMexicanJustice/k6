@@ -44,16 +44,13 @@ Smart casts are not possible when working with:
 
 * An example of limitation #3 is:
 
-`var masterid = 5`
-
-`if ( masterid is Integer )
-  Log.d("smart cast example", masterid)`
+![image](http://i68.tinypic.com/n63vk9.png)
   
 ### Safe vs. Unsafe
 If there is a risk of raising an exception when attempting to type cast, it is considered an unsafe cast. The opposite being a safe cast.
 Unsafe casts are done by using the as keyword, as an example:
 
-`val x: String = y as String`
+![image](http://i66.tinypic.com/14o68lg.png)
 
 ### Handling null
 The ? character indicates nullables. Note that non-nullable types cannot be casted and will raise an example.
