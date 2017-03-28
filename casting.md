@@ -24,7 +24,7 @@ The opposite of explicit casting. Data types need to be expressed whereever appl
 ### Smart casts
 The reason Kotlin has explicit casting is because the compiler tracks is-checks for immutable values (and behind the scenes) safe casts automatically.
 Here is an example of explicit casting using [smart cast](https://kotlinlang.org/docs/reference/typecasts.html):
-![image](http://i63.tinypic.com/2r1z9lk.png)
+![image](http://i64.tinypic.com/14wyjj7.png)
 
 It is worth mentioning that smart casts are not limited to if conditionals, but that they apply to when-expressions and while-loops as well:
 
