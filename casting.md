@@ -54,7 +54,7 @@ Unsafe casts are done by using the as keyword, as an example:
 ![image](http://i66.tinypic.com/14o68lg.png)
 
 ### Handling null
-The ? character indicates nullables. Note that non-nullable types cannot be casted and will raise an example.
-If y was null in the above example an exception would be thrown. To mimic Java semantics all we have to do is declare nullables as such:
+The ? character indicates nullables. Note that non-nullable types cannot be casted and will raise an exception.
+If y was null in the below example an exception would be thrown without nullables. To mimic Java semantics all we have to do is declare nullables using '?' as such:
 
 `val x: String? = y as? String`
