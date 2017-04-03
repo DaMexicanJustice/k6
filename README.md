@@ -59,7 +59,7 @@ Smart casts are not possible when working with:
 
 * An example of limitation #3 is:
 
-![image](http://i68.tinypic.com/n63vk9.png)
+![image](http://i68.tinypic.com/iym13m.png)
   
 ### Safe vs. Unsafe
 If there is a risk of raising an exception when attempting to type cast, it is considered an unsafe cast. The opposite being a safe cast.
