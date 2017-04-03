@@ -26,10 +26,15 @@ Python is a strongly typed language.
 JavaScript is a weakly typed language.
 
 In a strong this is not possible:
+
 `Int myInt = 5`
+
 `myInt = "5"`
+
 In a weakly typed this is possible:
+
 `myInt = 5`
+
 `myInt = "5"`
 
 #### Wildcards
