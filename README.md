@@ -18,7 +18,8 @@ In computer programming, programming languages are often colloquially classified
 ### How can they be performed using kotlin?
 #### Wildcards
 Using wildcards we can determine if something is of type map. Say for instance we have a Map<String, Any?> that takes at least a string as well as any data type. If we wanted to evaluate that map variable using if-conditionals, we would need to use wildcards. This is because the check is done at run-time where there is no information about the data types.
-![image](http://i68.tinypic.com/iym13m.png)
+
+`if (value is Map<*, *>) {...}`
 
 #### The is keyword
 Using if-conditionals in conjunction with the is keyword, we can determine the type of an argument. It enables us to determine how to proceed with our programming logic/flow. We can for instance handle unexpected types and raise errors, or alerts as needed.
