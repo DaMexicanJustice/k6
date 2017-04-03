@@ -4,6 +4,7 @@ Patrick Johansen, Joachim Christensen
 ## Type checking
 ### What are type checks?
 The process of verifying and enforcing the constraints of types—type checking—may occur either at compile-time (a static check) or at run-time. If a language specification requires its typing rules strongly (i.e., more or less allowing only those automatic type conversions that do not lose information), one can refer to the process as strongly typed, if not, as weakly typed. The terms are not usually used in a strict sense.
+
 ### What is static type checking?
 Static type checking is the process of verifying the type safety of a program based on analysis of a program's text (source code). If a program passes a static type checker, then the program is guaranteed to satisfy some set of type safety properties for all possible inputs.
 Static type checking operates on program text. This allows detecting many bugs early in a development cycle, via fail-fast processes.
