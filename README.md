@@ -44,6 +44,7 @@ Using wildcards we can determine if something is of type map. Say for instance w
 
 #### The is keyword
 Using if-conditionals in conjunction with the is keyword, we can determine the type of an argument. It enables us to determine how to proceed with our programming logic/flow. We can for instance handle unexpected types and raise errors, or alerts as needed.
+
 ![image](http://i63.tinypic.com/28vx7p3.png)
 
 ## Type casting
