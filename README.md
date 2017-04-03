@@ -21,7 +21,16 @@ In computer programming, programming languages are often colloquially classified
 Kotlin is a strongly typed programming language with explicit casting. 
 Java is strongly.
 C# is strongly.
-Python is a weakly typed language. 
+Python is a strongly typed language. 
+
+JavaScript is a weakly typed language.
+
+In a strong this is not possible:
+`Int myInt = 5`
+`myInt = "5"`
+In a weakly typed this is possible:
+`myInt = 5`
+`myInt = "5"`
 
 #### Wildcards
 Using wildcards we can determine if something is of type map. Say for instance we have a Map<String, Any?> that takes at least a string as well as any data type. If we wanted to evaluate that map variable using if-conditionals, we would need to use wildcards. This is because the check is done at run-time where there is no information about the data types.
