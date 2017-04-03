@@ -19,6 +19,8 @@ In computer programming, programming languages are often colloquially classified
 
 #### Strongly typed vs weakly typed examples
 Kotlin is a strongly typed programming language with explicit casting. 
+Java is strongly.
+C# is strongly.
 Python is a weakly typed language. 
 
 #### Wildcards
