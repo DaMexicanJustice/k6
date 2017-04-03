@@ -1,6 +1,21 @@
 # K6
 ## Group members
 Patrick Johansen, Joachim Christensen
+## Type checking
+### What are type checks?
+The process of verifying and enforcing the constraints of types—type checking—may occur either at compile-time (a static check) or at run-time. If a language specification requires its typing rules strongly (i.e., more or less allowing only those automatic type conversions that do not lose information), one can refer to the process as strongly typed, if not, as weakly typed. The terms are not usually used in a strict sense.
+### What is static type checking?
+Static type checking is the process of verifying the type safety of a program based on analysis of a program's text (source code). If a program passes a static type checker, then the program is guaranteed to satisfy some set of type safety properties for all possible inputs.
+Static type checking operates on program text. This allows detecting many bugs early in a development cycle, via fail-fast processes.
+Static type checking can be considered a limited form of program verification (see type safety), and in a type-safe language, can be considered also an optimization. If a compiler can prove that a program is well-typed, then it does not need to emit dynamic safety checks, allowing the resulting compiled binary to run faster and to be smaller.
+### What is dynamic type checking?
+Dynamic type checking is the process of verifying the type safety of a program at runtime. Implementations of dynamically type-checked languages generally associate each runtime object with a type tag (i.e., a reference to a type) containing its type information. This runtime type information (RTTI) can also be used to implement dynamic dispatch, late binding, downcasting, reflection, and similar features.
+Most type-safe languages include some form of dynamic type checking, even if they also have a static type checker. The reason for this is that many useful features or properties are difficult or impossible to verify statically. For example, suppose that a program defines two types, A and B, where B is a subtype of A. If the program tries to convert a value of type A to type B, which is known as downcasting, then the operation is legal only if the value being converted is actually a value of type B. Thus, a dynamic check is needed to verify that the operation is safe. This requirement is one of the criticisms of downcasting.
+By definition, dynamic type checking may cause a program to fail at runtime. In some programming languages, it is possible to anticipate and recover from these failures. In others, type-checking errors are considered fatal.
+### What is strong and weak typing?
+In computer programming, programming languages are often colloquially classified as strongly typed or weakly typed (loosely typed). These terms do not have a precise definition, but in general, a strongly typed language is more likely to generate an error or refuse to compile if the argument passed to a function does not closely match the expected type. On the other hand, a weakly typed language may produce unpredictable results or may perform implicit type conversion.
+### How can they be performed using kotlin?
+
 ## Type casting
 ### What is casting?
 In programming casting is the action of converting a datatype into a different datatype. In particular for Java we distinguish
